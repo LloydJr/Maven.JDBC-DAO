@@ -6,7 +6,7 @@ Requirements
 * SQL database
 
 
-## Part 1 Create Data Model
+## Part 1 Create Data Model `DONE`
 
 1. Create a sql database using a RDBMS (MySql)
 2. Create a table to represent some object data
@@ -24,7 +24,7 @@ a _car_ table may have the fields for:
 * color
 * vin
 
-## Part 2 Configure Java Application to use the JDBC API
+## Part 2 Configure Java Application to use the JDBC API `DONE`
 
 Use Maven.com to get the sql-connector-java dependency. Add this to your pom.xml
 
