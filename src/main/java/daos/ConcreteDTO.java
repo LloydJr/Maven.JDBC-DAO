@@ -1,7 +1,13 @@
 package daos;
 
 public class ConcreteDTO implements DTO{
-    int id;
+    private int id;
+
+    public ConcreteDTO(){}
+
+    public ConcreteDTO(int id){
+        this.id = id;
+    }
 
     public int getId() {
         return id;
